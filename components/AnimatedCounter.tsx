@@ -2,10 +2,11 @@
 import React from 'react'
 import CountUp from 'react-countup'
 
-const AnimatedCounter = ({amount}:{amount: number}) => {
+const AnimatedCounter = ({ amount }: { amount: number }) => {
   return (
     <div className='w-full'>
-        <CountUp
+      <CountUp
+
         decimals={2}
         decimal=','
         prefix='$'

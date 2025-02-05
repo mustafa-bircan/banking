@@ -1,5 +1,5 @@
 {
-  "name": "finance",
+  "name": "jsm_banking",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.5",
     "@radix-ui/react-slot": "^1.1.1",
     "chart.js": "^4.4.7",
     "class-variance-authority": "^0.7.1",
